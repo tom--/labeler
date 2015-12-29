@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @link https://github.com/tom--/labeler
+ * @copyright Copyright (c) 2015 Spinitron, LLC
+ * @license ISC https://opensource.org/licenses/ISC
+ */
+
 namespace spinitron\labeler;
 
 use Guzzle\Http\Client;

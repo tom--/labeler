@@ -3,6 +3,12 @@
     "description": "Labeler searches for record labels in Musicbrainz",
     "type": "project",
     "license": "ISC",
+    "authors": [
+        {
+            "name": "Tom Worster",
+            "email": "tom@spinitron.org"
+        }
+    ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.6.0",

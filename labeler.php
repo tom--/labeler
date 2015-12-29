@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @link https://github.com/tom--/labeler
+ * @copyright Copyright (c) 2015 Spinitron, LLC
+ * @license ISC https://opensource.org/licenses/ISC
+ */
+
 namespace spinitron\labeler;
 
 require __DIR__ . '/vendor/autoload.php';
@@ -10,7 +16,7 @@ $output = STDOUT;
 $script = array_shift($argv);
 
 $usage = <<<STRING
-$script [-t] [in [out]]"
+$script [-t] [in [out]]
   -t   use tab separators rather than commas
   in   input file name, or - for for stdin
   out  output file name, or - for for stdout
