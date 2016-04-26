@@ -23,7 +23,7 @@ class Labeler
     public function __construct()
     {
         $this->brainz = new MusicBrainz(new GuzzleHttpAdapter(new Client()));
-        $this->brainz->setUserAgent('Spinitron Labeler', '0.1', 'http://spinitron.bitbucket.com/labeler');
+        $this->brainz->setUserAgent('Spinitron Labeler', '0.1', 'https://bitbucket.org/spinitron/labeler');
     }
 
     public static function logerr($error)
